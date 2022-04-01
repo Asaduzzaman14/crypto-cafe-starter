@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const CoinCard = ({ coin }) => {
     return (
-        <div className='shadow-lg rounded-2xl w-{250px} bg-white p-4'>
+        <div className='shadow-lg rounded-2xl w-56 bg-white p-4'>
             <Link to={`/coindetail/${coin.id}`}>
                 <div className='flex gap-4 justify-betwen items-center'>
                     <div className='flex-shrink-0'>
